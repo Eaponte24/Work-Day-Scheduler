@@ -19,8 +19,23 @@ body {
     color: black;
     border-radius: 0;
     border-bottom: 10px solid black;
-    
+    }
+
+  .resetBtn {
+    border-radius: 15px;
+    width: 5%;
+    outline: none;
+    border: none;
+    background-color: #d3d3d3;
+    font-size: 14px;
+    color: black;
   }
+
+  .resetBtn:hover {
+    background-color: white;
+    outline: none;
+    border: none;
+}
   
   .description {
     white-space: pre-wrap;
